@@ -1,0 +1,67 @@
+main.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.img{
+  max-width: 100% !important;
+}
+.carousel-item {
+
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.count{
+  color: #231b80;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 40px 0px 20px;
+  font-weight: 600;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 45px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #231b80;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #070725;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.elementor-grid-0 .elementor-grid {
+    display: inline-block;
+    width: 100%;
+    word-spacing: var(--grid-column-gap);
+    margin-bottom: 50px;
+}
+.elementor-button {
+	padding: 12px 14px;
+}
+
+.elementor-cta__bg.elementor-bg {
+    width: 73%;
+    margin: auto;
+}
+.modal-dialog{}
